@@ -1,0 +1,27 @@
+{
+  "name": "@ac/monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test -workspaces"
+  },
+  "workspaces": [
+    "libs/*",
+    "apps/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaconv/ac-monorepo.git"
+  },
+  "keywords": [
+    "angular",
+    "stencil"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chaconv/ac-monorepo/issues"
+  },
+  "homepage": "https://github.com/chaconv/ac-monorepo#readme"
+}
