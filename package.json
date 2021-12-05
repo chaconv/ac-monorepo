@@ -8,7 +8,8 @@
     "start:angular": "npm run start -w @ac/angular-seed",
     "start:react": "npm run start -w @ac/react-seed",
     "start:vue": "npm run start -w @ac/vue-seed",
-    "start:all": "start npm run start:angular && start npm run start:react && start npm run start:vue",
+    "start:components": "npm run start -w @ac/components",
+    "start:all": "start npm run start:angular && start npm run start:react && start npm run start:vue && start npm run start:components",
     "start": "npm run start:all"
   },
   "workspaces": [
@@ -22,6 +23,7 @@
   "keywords": [
     "angular",
     "react",
+    "vue",
     "stencil"
   ],
   "author": "",
