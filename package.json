@@ -4,7 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "test -workspaces"
+    "test": "test -workspaces",
+    "start:angular": "npm run start -w @ac/angular-seed",
+    "start:react": "npm run start -w @ac/react-seed",
+    "start:vue": "npm run start -w @ac/vue-seed",
+    "start:all": "start npm run start:angular && start npm run start:react && start npm run start:vue",
+    "start": "npm run start:all"
   },
   "workspaces": [
     "libs/*",
