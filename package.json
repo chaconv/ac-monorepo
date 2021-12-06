@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test -w angular",
+    "test": "npm run test -w @ac/angular-seed",
     "start:angular": "npm run start -w @ac/angular-seed",
     "start:react": "npm run start -w @ac/react-seed",
     "start:vue": "npm run start -w @ac/vue-seed",
