@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { MyComponent } from './components/stencil-generated/index';
+export * from './components/stencil-generated/index';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <MyComponent />
   </React.StrictMode>,
   document.getElementById('root')
 );
