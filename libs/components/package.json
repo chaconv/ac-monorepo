@@ -23,7 +23,8 @@
   },
   "dependencies": {
     "@stencil/angular-output-target": "^0.3.0",
-    "@stencil/core": "^2.7.0"
+    "@stencil/core": "^2.7.0",
+    "@stencil/react-output-target": "^0.1.0"
   },
   "devDependencies": {
     "@types/jest": "^26.0.24",
