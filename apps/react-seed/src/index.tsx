@@ -6,7 +6,6 @@ import reportWebVitals from './reportWebVitals';
 import { MyComponent } from './components/stencil-generated/index';
 export * from './components/stencil-generated/index';
 
-
 ReactDOM.render(
   <React.StrictMode>
     <App />
