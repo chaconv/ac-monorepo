@@ -4,7 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "test -workspaces"
+    "test": "test -workspaces",
+    "start:angular": "npm run start -w @ac/angular-seed",
+    "start:react": "npm run start -w @ac/react-seed",
+    "start:vue": "npm run start -w @ac/vue-seed",
+    "start:components": "npm run start -w @ac/components",
+    "start:all": "start npm run start:angular && start npm run start:react && start npm run start:vue && start npm run start:components",
+    "start": "npm run start:all"
   },
   "workspaces": [
     "libs/*",
@@ -16,12 +22,18 @@
   },
   "keywords": [
     "angular",
+    "react",
+    "vue",
     "stencil"
   ],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/chaconv/ac-monorepo/issues"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0"
   },
   "homepage": "https://github.com/chaconv/ac-monorepo#readme"
 }
