@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "test -workspaces",
+    "test": "npm run test -w @ac/angular-seed",
     "start:angular": "npm run start -w @ac/angular-seed",
     "start:react": "npm run start -w @ac/react-seed",
     "start:vue": "npm run start -w @ac/vue-seed",
@@ -33,6 +33,7 @@
   },
   "homepage": "https://github.com/chaconv/ac-monorepo#readme",
   "dependencies": {
+    "cypress": "^9.1.1",
     "eslint": "^7.11.0"
   }
 }
